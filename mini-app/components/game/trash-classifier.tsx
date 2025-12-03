@@ -75,7 +75,7 @@ export default function TrashClassifier() {
   return (
     <Card className="w-full max-w-md mx-auto mt-4">
       <CardHeader>
-        <h2 className="text-xl font-semibold">Trash Sorter</h2>
+        <h2 className="text-xl font-semibold">Eco Trash Sorter</h2>
         <p className="text-muted-foreground">Time left: {timeLeft}s</p>
         <p className="text-muted-foreground">Score: {score}</p>
       </CardHeader>
@@ -83,7 +83,7 @@ export default function TrashClassifier() {
         {current && (
           <div className="text-center mb-4">
             <p className="text-lg font-medium">{current.name}</p>
-            <p className="text-sm text-muted-foreground">Select the correct bin</p>
+            <p className="text-sm text-muted-foreground">Select the correct ecological bin</p>
           </div>
         )}
         <div className="grid grid-cols-2 gap-2">
