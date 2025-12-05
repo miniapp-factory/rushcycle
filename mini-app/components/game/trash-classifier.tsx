@@ -7,22 +7,20 @@ import { cn } from "@/lib/utils";
 
 type TrashItem = {
   id: number;
-  type: "plastic" | "paper" | "glass" | "metal";
+  type: "compost" | "waste" | "recyclable";
   name: string;
 };
 
 const trashTypes: TrashItem[] = [
-  { id: 1, type: "plastic", name: "Plastic Bottle" },
-  { id: 2, type: "paper", name: "Newspaper" },
-  { id: 3, type: "glass", name: "Glass Jar" },
-  { id: 4, type: "metal", name: "Aluminum Can" },
+  { id: 1, type: "compost", name: "Food Waste" },
+  { id: 2, type: "waste", name: "General Waste" },
+  { id: 3, type: "recyclable", name: "Recyclable Items" },
 ];
 
 const bins = [
-  { type: "plastic", label: "Plastic Bin" },
-  { type: "paper", label: "Paper Bin" },
-  { type: "glass", label: "Glass Bin" },
-  { type: "metal", label: "Metal Bin" },
+  { type: "compost", label: "Compost Bin" },
+  { type: "waste", label: "Waste Bin" },
+  { type: "recyclable", label: "Recyclable Bin" },
 ];
 
 export default function TrashClassifier() {
