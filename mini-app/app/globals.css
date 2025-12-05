@@ -33,7 +33,7 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
-  .subheader { color: oklch(1 0 0); }
+  .subheader { color: oklch(0.145 0 0); }
 }
 
 :root {
