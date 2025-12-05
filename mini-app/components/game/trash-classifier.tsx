@@ -56,7 +56,7 @@ export default function TrashClassifier() {
 
   if (gameOver) {
     return (
-      <Card className="w-full max-w-md mx-auto mt-4">
+      <Card className="w-full max-w-md mx-auto mt-4 border-2 border-primary">
         <CardHeader>
           <h2 className="text-xl font-semibold">Game Over</h2>
         </CardHeader>
